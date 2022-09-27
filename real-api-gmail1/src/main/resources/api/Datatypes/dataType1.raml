@@ -1,0 +1,17 @@
+#%RAML 1.0 DataType
+type: object
+
+properties:
+  ModuleType:
+    type: number
+    required: true
+    description: This field determines type of email template. Possible values 
+  Id:
+    type: string
+    required: true
+    description: Id holds the InvoiceId of respective invoice
+  Recipients:
+    type: array
+    required: true
+    description: List of recipient email addresses.
+
